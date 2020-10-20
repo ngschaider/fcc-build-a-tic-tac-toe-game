@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Build a Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+  <center>
+    <div id="menu">
+      <div id="menu-welcome">
+        Welcome to Tic Tac Toe.<br>
+        Shall we start?<br>
+        <input type="button" value="Let's Go!" class="btn-wide" id="goto-char-select">
+      </div>
+      <div id="menu-char-select" class="hidden">
+        Please select a character.<br>
+        <input type="button" value="X" class="btn-big" id="char-x">
+        <input type="button" value="O" class="btn-big" id="char-o">
+      </div>
+    </div>
+    <div id="game" class="hidden">
+      <input type="button" class="btn-big play-btn" data-nr="0" value=" ">
+      <input type="button" class="btn-big play-btn" data-nr="1" value=" ">
+      <input type="button" class="btn-big play-btn" data-nr="2" value=" ">
+      <br>
+      <input type="button" class="btn-big play-btn" data-nr="3" value=" ">
+      <input type="button" class="btn-big play-btn" data-nr="4" value=" ">
+      <input type="button" class="btn-big play-btn" data-nr="5" value=" ">
+      <br>
+      <input type="button" class="btn-big play-btn" data-nr="6" value=" ">
+      <input type="button" class="btn-big play-btn" data-nr="7" value=" ">
+      <input type="button" class="btn-big play-btn" data-nr="8" value=" ">
+    </div>
+    <div id="gameOver-lose" class="hidden">Oh no, you lost!</div>
+    <div id="gameOver-win" class="hidden">Wow, you won!</div>
+    <div id="gameOver-draw" class="hidden">It's a draw, lol!</div>
+    <div id="gameOver" class="hidden">
+      <input type="button" value="Restart" class="btn-wide" id="restart-btn"
+    </div>
+  </center>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

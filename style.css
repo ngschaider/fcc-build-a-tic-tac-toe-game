@@ -1,0 +1,43 @@
+.hidden {
+  display: none;
+}
+
+.btn-big {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-color: lime;
+}
+
+.btn-wide {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border-color: lime;
+}
+
+#restart-btn{
+  margin-top: 200px;
+}
+
+#wrapper {
+  font-family: Arial;
+  background-color: #cd2122;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px; 
+  padding: 50px;
+  color: white;
+}
+
+#goto-char-select {
+  margin-top: 200px;
+}
+
+#char-x, #char-o{
+  margin: 50px 10px;
+}
+
+.play-btn {
+  margin: 20px;
+}
